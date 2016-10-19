@@ -1,1 +1,6 @@
 #n of #c
+#c of #n
+#n and #n
+#n and the #n
+#a #n
+#a #c

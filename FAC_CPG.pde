@@ -57,6 +57,12 @@ String filter( String in ){
       if( line[i].length() > 2 ) add = line[i].substring( 2 );
       
       switch( tag ){                                                 // we go to the appropriate tag and 
+        case 'a': // ADJECTIVES
+          line[i] = random_from_file( "adjectives" );
+          break;
+        case 'b': // ADVERBS
+          line[i] = random_from_file( "adverbs" );
+          break;
         case 'n': // NAMES, nouns describing real-world things.         replace that word with content from the word library.
           line[i] = random_from_file( "names" );
           break;
