@@ -6,10 +6,10 @@ Vagabond
 Speaker
 Listener
 The Authorities
-Lepers
-Tryhards
+The Lepers
+The Tryhards
 The incompetents
-pussycats
+The Pussycats
 Giggolo
 Clergy
 Realities
@@ -20,7 +20,7 @@ Alma-Mater
 Grandchild
 Farmer
 Declaration
-Variables
+The Variables
 Volleyball
 Fanatic
 Fanfare
@@ -32,3 +32,5 @@ The Crabs
 Trinket
 Jingle
 Gravel
+Sprawl
+Ferris-Wheel

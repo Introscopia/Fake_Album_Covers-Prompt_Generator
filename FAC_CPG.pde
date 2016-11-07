@@ -69,6 +69,9 @@ String filter( String in ){
         case 'c':// CONCEPTS, nouns describing abstract ideas.
           line[i] = random_from_file( "concepts" );
           break;
+        case 'v':// VERBS
+          line[i] = random_from_file( "verbs" );
+          break;
         default:
         
           break;
