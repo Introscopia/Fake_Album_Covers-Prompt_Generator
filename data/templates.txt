@@ -7,3 +7,8 @@
 #a #c of #n
 #b #a
 #v #b
+#b #v
+Thoughts of #c
+There is a #n that #v #b
+Sick of #n
+Sick of #c

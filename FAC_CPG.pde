@@ -49,35 +49,37 @@ String filter( String in ){
   String[] line = split( in, ' ' );                   //splits all the words of the incoming string.
   String out = "";
   for( int i = 0; i < line.length; i++ ){
-    if( line[i].charAt( 0 ) == '#' ){                 // if any of them start with #...
-      
-      char tag = line[i].charAt( 1 );
-      String add = "";
-      
-      if( line[i].length() > 2 ) add = line[i].substring( 2 );
-      
-      switch( tag ){                                                 // we go to the appropriate tag and 
-        case 'a': // ADJECTIVES
-          line[i] = random_from_file( "adjectives" );
-          break;
-        case 'b': // ADVERBS
-          line[i] = random_from_file( "adverbs" );
-          break;
-        case 'n': // NAMES, nouns describing real-world things.         replace that word with content from the word library.
-          line[i] = random_from_file( "names" );
-          break;
-        case 'c':// CONCEPTS, nouns describing abstract ideas.
-          line[i] = random_from_file( "concepts" );
-          break;
-        case 'v':// VERBS
-          line[i] = random_from_file( "verbs" );
-          break;
-        default:
+    if( line[i].length()  >= 1 ){
+      if( line[i].charAt( 0 ) == '#' ){                 // if any of them start with #...
         
-          break;
+        char tag = line[i].charAt( 1 );
+        String add = "";
+        
+        if( line[i].length() > 2 ) add = line[i].substring( 2 );
+        
+        switch( tag ){                                                 // we go to the appropriate tag and 
+          case 'a': // ADJECTIVES
+            line[i] = random_from_file( "adjectives" );
+            break;
+          case 'b': // ADVERBS
+            line[i] = random_from_file( "adverbs" );
+            break;
+          case 'n': // NAMES, nouns describing real-world things.         replace that word with content from the word library.
+            line[i] = random_from_file( "names" );
+            break;
+          case 'c':// CONCEPTS, nouns describing abstract ideas.
+            line[i] = random_from_file( "concepts" );
+            break;
+          case 'v':// VERBS
+            line[i] = random_from_file( "verbs" );
+            break;
+          default:
+          
+            break;
+        }
+        
+        line[i] += add;
       }
-      
-      line[i] += add;
     }
 
     out += line[i]+" ";

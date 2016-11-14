@@ -11,6 +11,7 @@ Fancy
 Shy
 Hard
 Easy
+Tender
 fastidious
 Pedantic
 Wrung-Dry
@@ -41,4 +42,5 @@ Gentle
 Egregious
 Gratifying
 Grateful
-syncophantic
+Syncophantic
+Unnimaginable
