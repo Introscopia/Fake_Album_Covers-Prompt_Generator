@@ -1,3 +1,7 @@
+Never
+Always
+Sometimes
+Frequently
 Totally
 Tragically
 Frantically
@@ -5,7 +9,7 @@ Gleefully
 Recklessly
 Classically
 Effortlessly
-With great abbandon
+With Great Abbandon
 Cynically
 Gregariously
 Quickly
@@ -17,3 +21,15 @@ Casually
 Gently
 Absolutely
 Tenderly
+Inexorably
+Feverishly
+Consistently
+Apparently
+Greatly
+Enourmously
+Simply
+Psychically
+Telepatically
+Exactly
+Religiously
+Knowingly

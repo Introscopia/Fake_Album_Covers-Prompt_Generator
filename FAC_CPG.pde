@@ -81,7 +81,6 @@ String filter( String in ){
         line[i] += add;
       }
     }
-
     out += line[i]+" ";
   }
   
